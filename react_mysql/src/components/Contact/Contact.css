@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Corben');
+
+.bg-text2 {
+ 
+  color: white;
+  font-family: 'Sofia';
+  font-size: 22px;
+  font-weight: 20;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 85%;
+  height: 90%;
+  padding-top: 10px;
+  padding-left: 155px;
+  padding-right: 150px;
+
+}
+
+#HeaderCon{
+    text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+ 
+  padding: 5px;
+  text-align: left;
+  border-bottom: 2px solid rgb(224, 207, 207);
+  
+
+}
+
+#txt {
+    color: rgb(255, 255, 255) ;
+    font-family: 'Corbon';
+}
+
+#txts{
+  color: white;
+}
+
+td{
+  
+  text-align: left;
+
+}
+
+.BEDIT{
+  color: black;
+  background-color: rgb(255, 208, 0);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 1px 0px;
+  cursor: pointer;
+  font-family: 'Lucida Console', Lucida, monospace;
+}
+
+.BDELETE{
+  color: rgb(255, 255, 255);
+  background-color: rgb(209, 2, 2);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 1px 0px;
+  cursor: pointer;
+  font-family: 'Lucida Console', Lucida, monospace;
+}
+
+.BVIEW{
+  color: rgb(255, 255, 255);
+  background-color: rgb(11, 187, 5);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 1px 0px;
+  cursor: pointer;
+  font-family: 'Lucida Console', Lucida, monospace;
+}
+
+.Modal-body{
+  background-color: black;
+}
+
+#txts1{
+  color: black;
+  margin-right: 20px;
+}
+
+input[type=text11], select {
+  width: 39%;
+  padding: 10px 10px;
+  margin-top: 20px;
+  margin-right: 32px;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=vilID1], select {
+  width: 40%;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-right: 32px;
+  margin-left: 13px;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=vilName1], select {
+  width: 40%;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=zipcode1], select {
+  width: 15%;
+  padding: 10px 10px;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=province1], select {
+  width: 67%;
+  padding: 10px 10px;
+  margin-top: 20px;
+  margin-right: 19px;
+  margin-left: 85px;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=district1], select {
+  width: 40%;
+  padding: 10px 10px;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=subdistrict1], select {
+  width: 40%;
+  padding: 10px 10px;
+  margin-top: 20px;
+  margin-right: 32px;
+  margin-left: 85px;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#Tf1 {
+  font-size: 20px;
+  color: black;
+  margin-right: 30px;
+  
+}
+
+#Tl1 {
+  font-size: 20px;
+  color: black;
+  margin-left: 30px;
+}
+
+#Tid1 {
+  font-size: 20px;
+  color: black;
+
+}
+
+
+#TN1 {
+  font-size: 20px;
+  color: black;
+  margin-left: 17px;
+}
+
+#T1 {
+  font-size: 20px;
+  color: black;
+  text-align: left;
+}
+
+#Tdis {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+}
+
+#Tzip {
+  font-size: 20px;
+  color: black;
+    margin-left: 30px;
+}
+
+#des11{
+    margin-left: 87px;
+    font-family: 'Corben';
+    font-size: 12px;
+    color: rgb(192, 192, 192);
+}
+
+#des111{
+    margin-left: 260px;
+    font-family: 'Corben';
+    font-size: 12px;
+    color: rgb(192, 192, 192);
+}
+
+#des21{
+    margin-left: 450px;
+    font-family: 'Corben';
+    font-size: 12px;
+     color: rgb(192, 192, 192);
+        
+}
+
+#Header1{
+    text-align: center;
+    color: black;
+}
+
+input[type=submit] {
+  width: 87%;
+  background-color: rgb(240, 90, 52);
+  color: white;
+  font-family: 'Sofia';
+  font-size: 20px;
+  padding: 8px 20px;
+  margin-left: 85px;
+  margin-top: 50px;
+  border: none;
+  
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f84f32;
+}

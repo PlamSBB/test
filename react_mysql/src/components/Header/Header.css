@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+.bg-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/opacity/see-through */
+  color: white;
+  font-family: 'Sofia';
+  font-size: 22px;
+  font-weight: 20;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 85%;
+  height: 90%;
+  padding: 0px;
+  text-align: center;
+
+}
+
+a{
+    color: white;
+}
+
+#ic {
+  color: white;
+  width: 10%;
+  height: 10%;
+  margin-top: 100px;
+  margin-left: 100%;  
+
+}
+
+#ic1 {
+  color: white;
+  width: 10%;
+  height: 10%;
+  margin-top: 50px;
+  margin-left: 100%;  
+
+}
+#tt{
+  margin-top: 15%;
+}
